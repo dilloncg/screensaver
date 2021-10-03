@@ -84,7 +84,7 @@ body{
 
 .vampire:hover .vamp-info{
   background: white;
-  width: 200px;
+  width: 400px;
   padding: 3px;
   display: block;
 }
@@ -170,4 +170,30 @@ body{
   display: block;
 }
 
+.sources-info{
+  font-family: 'Gluten', cursive;
+  color: purple;
+  font-size: 20px;
+  display: none;
+}
+
+.sources{
+  margin-left: 300px;
+  margin-top: 700px;
+  font-family: 'Gluten', cursive;
+  color: rgb(230, 200, 100);
+  font-size: 30px;
+  background: black;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  position: fixed;
+}
+
+.sources:hover .sources-info{
+  background: white;
+  width: 200px;
+  padding: 3px;
+  display: block;
+}
   /*<img src="haunt.gif">*/
