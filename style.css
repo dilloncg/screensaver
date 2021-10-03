@@ -1,3 +1,173 @@
-img{
-  max-width: 100%;
+body{
+  margin: 0px;
+  background: rgb(10, 30, 50);
+  background-image: url("haunt.gif");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 1040px 768px;
+
 }
+
+.ghost-info{
+  font-family: 'Gluten', cursive;
+  color: purple;
+  font-size: 20px;
+  display: none;
+}
+
+.ghost{
+  margin-left: 450px;
+  margin-top: 500px;
+  font-family: 'Gluten', cursive;
+  color: rgb(230, 200, 100);
+  font-size: 30px;
+  background: black;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  position: fixed;
+}
+
+.ghost:hover .ghost-info{
+  background: white;
+  width: 200px;
+  padding: 3px;
+  display: block;
+}
+
+.jackolantern-info{
+  font-family: 'Gluten', cursive;
+  color: purple;
+  font-size: 20px;
+  display: none;
+}
+
+.jackolantern{
+  margin-left: 600px;
+  margin-top: 250px;
+  font-family: 'Gluten', cursive;
+  color: rgb(230, 200, 100);
+  font-size: 30px;
+  background: black;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  position: fixed;
+}
+
+.jackolantern:hover .jackolantern-info{
+  background: white;
+  width: 300px;
+  padding: 3px;
+  display: block;
+}
+
+.vamp-info{
+  font-family: 'Gluten', cursive;
+  color: purple;
+  font-size: 20px;
+  display: none;
+}
+
+.vampire{
+  margin-left: 900px;
+  margin-top: 450px;
+  font-family: 'Gluten', cursive;
+  color: rgb(230, 200, 100);
+  font-size: 30px;
+  background: black;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  position: fixed;
+}
+
+.vampire:hover .vamp-info{
+  background: white;
+  width: 200px;
+  padding: 3px;
+  display: block;
+}
+
+.witch-info{
+  font-family: 'Gluten', cursive;
+  color: purple;
+  font-size: 20px;
+  display: none;
+}
+
+.witches{
+  margin-left: 700px;
+  margin-top: 500px;
+  font-family: 'Gluten', cursive;
+  color: rgb(230, 200, 100);
+  font-size: 30px;
+  background: black;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  position: fixed;
+}
+
+.witches:hover .witch-info{
+  background: white;
+  width: 300px;
+  padding: 3px;
+  display: block;
+}
+
+.mirror-info{
+  font-family: 'Gluten', cursive;
+  color: purple;
+  font-size: 20px;
+  display: none;
+}
+
+.mirror{
+  margin-left: 1150px;
+  margin-top: 250px;
+  font-family: 'Gluten', cursive;
+  color: rgb(230, 200, 100);
+  font-size: 30px;
+  background: black;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  position: fixed;
+}
+
+.mirror:hover .mirror-info{
+  background: white;
+  width: 200px;
+  padding: 3px;
+  display: block;
+}
+
+.hh-info{
+  font-family: 'Gluten', cursive;
+  color: purple;
+  font-size: 20px;
+  display: none;
+}
+
+.hh{
+  margin-left: 700px;
+  margin-top: 700px;
+  font-family: 'Gluten', cursive;
+  color: rgb(230, 200, 100);
+  font-size: 30px;
+  background: black;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  position: fixed;
+}
+
+.hh:hover .hh-info{
+  background: white;
+  width: 600px;
+  padding: 3px;
+  display: block;
+}
+
+  /*<img src="haunt.gif">*/
